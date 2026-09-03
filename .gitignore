@@ -1,0 +1,16 @@
+# 编译产物
+*.exe
+*.dll
+*.o
+*.obj
+*.lib
+*.a
+
+# IDE 配置
+.vscode/
+
+# 临时文件
+tempCodeRunnerFile.c
+out.txt
+err.txt
+compile_err.txt
