@@ -6,27 +6,31 @@
 
 ```
 C_project/
-├── unit2/          # 第 2 章习题（q1 ~ q8）
-├── unit3/          # 第 3 章习题（q1）
-├── game.c          # 2D 贪吃蛇（带传送门）
-├── game3d.c        # 3D 贪吃蛇（多层空间）
-└── *.c             # 根目录下其余独立练习
+├── vibecoding/
+│   └── snake_game/        # 贪吃蛇系列
+│       ├── game.c         # 2D 贪吃蛇（带传送门）
+│       └── game3d.c       # 3D 贪吃蛇（多层空间）
+├── firsttry/              # 独立练习（Hello World、三数最大值、找零计算器等）
+├── unit2/                 # 第 2 章习题（q1 ~ q8）
+├── unit3/                 # 第 3 章习题（q1）
+├── README.md
+└── .gitignore
 ```
 
 ## 内容一览
 
 | 文件 | 说明 |
 |---|---|
-| `hello.c` / `tom.c` / `test.c` / `test2.c` | Hello World 入门练习 |
-| `q1.c` / `q2.c` / `q3.c` | 字符图案（星号菱形）输出练习 |
-| `work1.c` / `work2.c` | 输入三个数输出最大值（练习 if / else if） |
-| `change.c` / `change_calculator.c` / `change_calculator2.c` | 找零计算器 |
-| `abc.c` / `c.c` / `h.c` / `0or1.c` | 其他零散小练习 |
-| `game.c` | **2D 贪吃蛇**：方向键控制、食物、得分、传送门 |
-| `game3d.c` | **3D 贪吃蛇**：在 3 层立体空间里吃食物成长 |
+| `firsttry/hello.c` / `tom.c` / `test.c` / `test2.c` | Hello World 入门练习 |
+| `firsttry/q1.c` / `q2.c` / `q3.c` | 字符图案（星号菱形）输出练习 |
+| `firsttry/work1.c` / `work2.c` | 输入三个数输出最大值（练习 if / else if） |
+| `firsttry/change.c` / `change_calculator.c` / `change_calculator2.c` | 找零计算器 |
+| `firsttry/abc.c` / `c.c` / `h.c` / `0or1.c` | 其他零散小练习 |
+| `firsttry/compile.bat` | 用本机 MinGW 编译 `change_calculator.c` 并输出错误信息 |
+| `vibecoding/snake_game/game.c` | **2D 贪吃蛇**：方向键控制、食物、得分、传送门 |
+| `vibecoding/snake_game/game3d.c` | **3D 贪吃蛇**：在 3 层立体空间里吃食物成长 |
 | `unit2/q1.c ~ q8.c` | 第 2 章习题：星号图案、贷款余额按月计算等 |
 | `unit3/q1.c` | 第 3 章习题：日期格式化输出 (yyyy/mm/dd) |
-| `compile.bat` | 用本机 MinGW 编译 `change_calculator.c` 并输出错误信息 |
 
 ## 运行环境
 
@@ -37,6 +41,7 @@ C_project/
 单个文件编译运行示例：
 
 ```bash
+cd vibecoding/snake_game
 gcc game.c -o game.exe
 game.exe
 ```
