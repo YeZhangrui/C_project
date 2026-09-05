@@ -13,7 +13,7 @@ C_project/
 ├── firsttry/              # 独立练习（Hello World、三数最大值、找零计算器等）
 ├── unit2/                 # 第 2 章习题（q1 ~ q8）
 ├── unit3/                 # 第 3 章习题（q1 ~ q6）
-├── uniit4/                # 第 4 章习题（q1 ~ q6，注意是 uniit4 而不是 unit4）
+├── unit4/                # 第 4 章习题（q1 ~ q6，注意是 uniit4 而不是 unit4）
 ├── unit5/                 # 第 5 章习题（建设中，暂无内容）
 ├── README.md
 └── .gitignore
@@ -33,7 +33,7 @@ C_project/
 | `vibecoding/snake_game/game3d.c` | **3D 贪吃蛇**：在 3 层立体空间里吃食物成长 |
 | `unit2/q1.c ~ q8.c` | 第 2 章习题：星号图案、贷款余额按月计算等 |
 | `unit3/q1.c ~ q6.c` | 第 3 章习题：格式化输入输出（日期、商品表格、电话号码、分数求和等） |
-| `uniit4/q1.c ~ q6.c` | 第 4 章习题：表达式与算术运算（数字反转、UPC 校验码计算等） |
+| `unit4/q1.c ~ q6.c` | 第 4 章习题：表达式与算术运算（数字反转、UPC 校验码计算等） |
 
 ## 运行环境
 
