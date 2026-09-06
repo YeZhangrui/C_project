@@ -7,13 +7,15 @@
 ```
 C_project/
 ├── firsttry/              # 独立练习（Hello World、三数最大值、找零计算器等）
-├── unit2/                 # 第 2 章习题（q1 ~ q8）
-├── unit3/                 # 第 3 章习题（q1 ~ q6）
-├── unit4/                 # 第 4 章习题（q1 ~ q6）
-├── unit5/                 # 第 5 章习题（q1 ~ q11）
+├── unit2/                 # 第 2 章习题（q01 ~ q08）
+├── unit3/                 # 第 3 章习题（q01 ~ q06）
+├── unit4/                 # 第 4 章习题（q01 ~ q06）
+├── unit5/                 # 第 5 章习题（q01 ~ q11）
 ├── README.md
 └── .gitignore
 ```
+
+> 📌 **命名规则**：所有章节习题统一使用 `qNN` 零填充命名（个位数补零，如 `q01.c`、`q09.c`），保证在任何文件列表里都按数字大小正确排序显示：q01, q02, … , q09, q10, q11。
 
 ## 内容一览
 
@@ -25,10 +27,10 @@ C_project/
 | `firsttry/change.c` / `change_calculator.c` / `change_calculator2.c` | 找零计算器 |
 | `firsttry/abc.c` / `c.c` / `h.c` / `0or1.c` | 其他零散小练习 |
 | `firsttry/compile.bat` | 用本机 MinGW 编译 `change_calculator.c` 并输出错误信息 |
-| `unit2/q1.c ~ q8.c` | 第 2 章习题：星号图案、贷款余额按月计算等 |
-| `unit3/q1.c ~ q6.c` | 第 3 章习题：格式化输入输出（日期、商品表格、电话号码、分数求和等） |
-| `unit4/q1.c ~ q6.c` | 第 4 章习题：表达式与算术运算（数字反转、UPC 校验码计算等） |
-| `unit5/q1.c ~ q11.c` | 第 5 章习题：选择语句（if / else if、switch，数字位数判断、两位数转英文读法等） |
+| `unit2/q01.c ~ q08.c` | 第 2 章习题：星号图案、贷款余额按月计算等 |
+| `unit3/q01.c ~ q06.c` | 第 3 章习题：格式化输入输出（日期、商品表格、电话号码、分数求和等） |
+| `unit4/q01.c ~ q06.c` | 第 4 章习题：表达式与算术运算（数字反转、UPC 校验码计算等） |
+| `unit5/q01.c ~ q11.c` | 第 5 章习题：选择语句（if / else if、switch，数字位数判断、两位数转英文读法等） |
 
 ## 运行环境
 
@@ -39,8 +41,8 @@ C_project/
 单个文件编译运行示例：
 
 ```bash
-gcc unit2/q1.c -o q1.exe
-q1.exe
+gcc unit2/q01.c -o q01.exe
+q01.exe
 ```
 
 ## 说明
